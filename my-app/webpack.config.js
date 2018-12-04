@@ -13,8 +13,8 @@ module.exports = {
             exclude: /node_modules/,
             test: /\.js$/,
             loader: 'babel-loader'
-        },      {
-            test: /\.css$/,
+        },{
+            test: /\min.css$/,
             use: [ 'style-loader', 'css-loader' ]
           }]
     },

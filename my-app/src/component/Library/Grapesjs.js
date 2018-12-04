@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import classes from './Grapesjs.css';
+import './grapes.min.css';
 // import GrapesIndex from 'grapesjs';
 import ReactDOM from 'react-dom';
 
