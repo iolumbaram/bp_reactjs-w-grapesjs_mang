@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './App.css';
+import classes from './App.css';
 import  GrapesjsEditor from "./component/Library/Grapesjs.js";
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className={classes.App}>
         <GrapesjsEditor/>
       </div>
     );
