@@ -428,6 +428,7 @@ module.exports = {
   },
   plugins: [
     // Generates an `index.html` file with the <script> injected.
+    new webpack.ProvidePlugin({ grapesjs: "grapesjs" }),
     new HtmlWebpackPlugin({
       inject: true,
       template: paths.appHtml,
